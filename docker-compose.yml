@@ -1,0 +1,12 @@
+# docker-compose.yml
+
+version: '3'
+
+services:
+  web:
+    build: .
+    # command: uvicorn app.main:app --host 0.0.0.0
+    volumes:
+      - ./app:/app
+    ports:
+      - 8008:80
