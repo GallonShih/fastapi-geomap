@@ -17,6 +17,9 @@ In this repo, you can show geo-map generated from folium on your own website and
 ### Prerequisites
 - Have your own AWS account.
 - Start up an EC2 with **Amazon Linux 2 AMI** and ensure connection.
+- Ref:  
+[Tutorial: Get started with Amazon EC2 Linux instances](https://docs.aws.amazon.com/zh_tw/AWSEC2/latest/UserGuide/EC2_GetStarted.html)  
+[Work with security groups](https://docs.aws.amazon.com/zh_tw/AWSEC2/latest/UserGuide/working-with-security-groups.html)
 
 When connecting the EC2, you would see the screen below:
 <img src='./pics/ec2-cscreen.png' width="80%">
@@ -89,6 +92,8 @@ And reload the nginx.
 ```bash
 sudo nginx -s reload
 ```
+
+Now, you can use your browser to get **http://{your own aws ec2 IP}/api/v1/geomap/**
 
 ---
 
