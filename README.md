@@ -52,7 +52,7 @@ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
 Now, install git and then download this github repo.
 ```bash
-sudo yum git
+sudo yum install git
 
 git clone https://github.com/GallonShih/fastapi-geomap.git
 ```
